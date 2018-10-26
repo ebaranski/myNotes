@@ -21,9 +21,9 @@ import java.util.ArrayList;
 import static com.example.ericb.demonotes.ObjectSerializer.serialize;
 public class MainActivity extends AppCompatActivity {
 
-    EditText noteText;
-    ListView notesListView;
-    ArrayAdapter<String> arrayAdapter;
+    EditText noteText ;
+    ListView notesListView ;
+    ArrayAdapter<String> arrayAdapter ;
 
     public static final String EXTRA_MESSAGE = "com.example.ericb.demonotes.MESSAGE";
     static final int EDIT_NOTE_REQUEST = 1;
